@@ -36,11 +36,4 @@ theme = "ace-theme"
       unsafe = true
 
 [outputs]
-  home = ["HTML", "RSS"]
-
-[outputFormats]
-  [outputFormats.RSS]
-    mediaType = "application/rss+xml"
-    baseName = "index"
-    isPlainText = true
-    notAlternative = true 
+  home = ["HTML"] 
