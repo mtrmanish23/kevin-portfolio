@@ -59,30 +59,39 @@ collections:
 
   - name: "about"
     label: "About Page"
-    file: "content/about/_index.md"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+    files:
+      - name: "index"
+        label: "About Page"
+        file: "content/about/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Draft", name: "draft", widget: "boolean", default: false}
+          - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "portfolio"
     label: "Portfolio Page"
-    file: "content/portfolio/_index.md"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+    files:
+      - name: "index"
+        label: "Portfolio Page"
+        file: "content/portfolio/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Draft", name: "draft", widget: "boolean", default: false}
+          - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "contact"
     label: "Contact Page"
-    file: "content/contact/_index.md"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+    files:
+      - name: "index"
+        label: "Contact Page"
+        file: "content/contact/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Draft", name: "draft", widget: "boolean", default: false}
+          - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "settings"
     label: "Site Settings"
