@@ -1,0 +1,17 @@
+name = "Ace Theme"
+license = "MIT"
+licenselink = "https://github.com/your-username/ace-theme/blob/master/LICENSE"
+description = "A modern photography studio theme for Hugo"
+homepage = "https://example.com/"
+tags = ["photography", "portfolio", "creative", "studio"]
+features = ["blog", "portfolio", "contact"]
+min_version = "0.80.0"
+
+[author]
+  name = "Your Name"
+  homepage = "https://example.com/"
+
+[original]
+  name = "Ace Photography Studio"
+  homepage = "https://example.com/"
+  repo = "https://github.com/your-username/ace-theme" 

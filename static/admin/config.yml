@@ -1,0 +1,100 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+        label: "Home Page"
+        file: "content/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Draft", name: "draft", widget: "boolean", default: false}
+          - label: "Hero Slides"
+            name: "slides"
+            widget: "list"
+            fields:
+              - {label: "Index", name: "index", widget: "number"}
+              - {label: "Title", name: "title", widget: "text"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Contact Link", name: "contact_link", widget: "string", default: "/contact/"}
+              - {label: "About Link", name: "about_link", widget: "string", default: "/about/"}
+          - label: "Slider Images"
+            name: "slider_images"
+            widget: "list"
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Alt Text", name: "alt", widget: "string"}
+          - label: "About Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Image 1", name: "image1", widget: "image"}
+              - {label: "Image 2", name: "image2", widget: "image"}
+              - {label: "Link", name: "link", widget: "string", default: "/about/"}
+          - label: "Portfolio Section"
+            name: "portfolio"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "string"}
+              - label: "Portfolio Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Image", name: "image", widget: "image"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Link", name: "link", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "about"
+    label: "About Page"
+    file: "content/about/_index.md"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "portfolio"
+    label: "Portfolio Page"
+    file: "content/portfolio/_index.md"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "contact"
+    label: "Contact Page"
+    file: "content/contact/_index.md"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "general"
+        label: "General Settings"
+        file: "data/settings.json"
+        fields:
+          - {label: "Site Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Author", name: "author", widget: "string"}
+          - {label: "Keywords", name: "keywords", widget: "string"}
+          - {label: "Address", name: "address", widget: "string"}
+          - {label: "Phone", name: "phone", widget: "string"}
+          - {label: "Email", name: "email", widget: "string"} 
