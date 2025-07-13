@@ -1,0 +1,15 @@
+{
+  "name": "ace-contact-functions",
+  "version": "1.0.0",
+  "description": "Netlify functions for contact form handling",
+  "main": "contact.js",
+  "dependencies": {
+    "zod": "^3.22.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["netlify", "functions", "contact", "validation"],
+  "author": "Ace Studio",
+  "license": "MIT"
+} 

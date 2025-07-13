@@ -1,0 +1,50 @@
+<!-- contact section -->
+<section class="contact_section layout_padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form_container">
+          <div class="heading_container">
+            <h2>
+              Contact Us
+            </h2>
+          </div>
+          <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="d-none">
+              <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+            </p>
+            <div>
+              <input type="text" name="fullName" id="fullName" placeholder="Full Name" required />
+            </div>
+            <div>
+              <input type="email" name="email" id="email" placeholder="Email" required />
+            </div>
+            <div>
+              <input type="tel" name="phone" id="phone" placeholder="Phone number" />
+            </div>
+            <div>
+              <textarea name="message" id="message" class="message-box" placeholder="Message" required></textarea>
+            </div>
+            <div class="recaptcha-container">
+              <div class="g-recaptcha" data-sitekey="{{ getenv "RECAPTCHA_SITE_KEY" }}" data-callback="onRecaptchaSuccess" data-size="invisible"></div>
+            </div>
+            <div class="d-flex">
+              <button type="submit" id="submitBtn">
+                <span class="btn-text">SEND</span>
+                <span class="btn-loading d-none">Sending...</span>
+              </button>
+            </div>
+            <div id="formMessage" class="mt-3"></div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="img-box">
+          <img src="{{ "images/contact-img.png" | relURL }}" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end contact section --> 

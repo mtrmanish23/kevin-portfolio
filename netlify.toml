@@ -5,6 +5,10 @@
 [build.environment]
   HUGO_VERSION = "0.120.0"
   HUGO_ENV = "production"
+  RECAPTCHA_SITE_KEY = "6LdVfYErAAAAAE3xdsDLolAqtBKm0XDS_-6oR2g5"
+
+[functions]
+  directory = "netlify/functions"
 
 [[redirects]]
   from = "/admin/*"
