@@ -1,18 +1,12 @@
 [build]
   publish = "public"
-  command = "hugo"
+  command = "./build.sh"
 
 [build.environment]
   HUGO_VERSION = "0.120.0"
   HUGO_ENV = "production"
-  HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "/admin/*"
   to = "/admin/index.html"
   status = 200
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200 
