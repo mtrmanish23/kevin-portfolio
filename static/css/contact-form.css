@@ -18,7 +18,9 @@
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 16px;
-  transition: border-color 0.3s ease;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
 }
 
 .contact_section .form_container form input:focus,
@@ -26,16 +28,56 @@
   outline: none;
   border-color: #007bff;
   box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  background-color: #fff;
+}
+
+.contact_section .form_container form input::placeholder,
+.contact_section .form_container form textarea::placeholder {
+  color: #6c757d;
+  opacity: 1;
 }
 
 .contact_section .form_container form textarea {
   min-height: 120px;
+  max-height: 300px;
   resize: vertical;
+  line-height: 1.5;
 }
 
 /* reCAPTCHA v3 styling - invisible */
 .recaptcha-container {
   display: none; /* Hide container for invisible reCAPTCHA v3 */
+}
+
+/* Additional form improvements */
+.contact_section .form_container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.contact_section .heading_container h2 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact_section .form_container form div {
+  margin-bottom: 20px;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .contact_section .form_container {
+    padding: 20px;
+  }
+  
+  .contact_section .form_container form input,
+  .contact_section .form_container form textarea {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
 }
 
 .contact_section .form_container form button {

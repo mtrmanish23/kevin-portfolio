@@ -27,7 +27,7 @@
               <textarea name="message" id="message" class="message-box" placeholder="Message" required></textarea>
             </div>
             <div class="recaptcha-container">
-              <div class="g-recaptcha" data-sitekey="{{ getenv "RECAPTCHA_SITE_KEY" }}" data-callback="onRecaptchaSuccess" data-size="invisible"></div>
+              <div class="g-recaptcha" data-sitekey="{{ .Site.Params.recaptcha_site_key }}" data-callback="onRecaptchaSuccess" data-size="invisible"></div>
             </div>
             <div class="d-flex">
               <button type="submit" id="submitBtn">

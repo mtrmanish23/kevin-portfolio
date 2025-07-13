@@ -4,4 +4,4 @@ date: 2024-01-01
 draft: false
 ---
 
-{{ partial "contact-form.html" . }} 
+Contact us for your photography needs. 

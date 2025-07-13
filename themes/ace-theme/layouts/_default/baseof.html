@@ -30,7 +30,7 @@
   <!-- contact form style -->
   <link href="{{ "css/contact-form.css" | relURL }}" rel="stylesheet" />
   <!-- Google reCAPTCHA v3 -->
-  <script src="https://www.google.com/recaptcha/api.js?render={{ getenv "RECAPTCHA_SITE_KEY" }}"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render={{ .Site.Params.recaptcha_site_key }}"></script>
 
   {{ block "head" . }}{{ end }}
 </head>

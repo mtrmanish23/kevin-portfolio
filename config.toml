@@ -7,6 +7,7 @@ theme = "ace-theme"
   description = "Creative Photography Studio"
   author = "Ace Studio"
   keywords = "photography, creative, studio, portfolio"
+  recaptcha_site_key = "6LdVfYErAAAAAE3xdsDLolAqtBKm0XDS_-6oR2g5"
 
 [menu]
   [[menu.main]]

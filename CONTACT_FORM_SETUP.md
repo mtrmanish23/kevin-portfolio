@@ -30,9 +30,10 @@ TELEGRAM_CHAT_ID=your_chat_id_here
 
 ### Google reCAPTCHA Configuration
 ```
-RECAPTCHA_SITE_KEY=your_recaptcha_site_key_here
 RECAPTCHA_SECRET_KEY=your_recaptcha_secret_key_here
 ```
+
+**Note:** The reCAPTCHA site key is configured in `config.toml` under `[params.recaptcha_site_key]`
 
 ## Setting up Google reCAPTCHA v3
 
@@ -43,9 +44,9 @@ RECAPTCHA_SECRET_KEY=your_recaptcha_secret_key_here
    - Add your domain(s) to the list
    - Save and note both the **Site Key** and **Secret Key**
 
-2. **Set Environment Variables:**
+2. **Configure reCAPTCHA Keys:**
+   - Update `config.toml`: Set `recaptcha_site_key` under `[params]`
    - Go to Netlify Dashboard → Site Settings → Environment Variables
-   - Add `RECAPTCHA_SITE_KEY` with your site key
    - Add `RECAPTCHA_SECRET_KEY` with your secret key
 
 ## Setting up Telegram Bot
