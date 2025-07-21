@@ -4,32 +4,15 @@ date: 2024-01-01
 draft: false
 ---
 
-<!-- about section -->
-<section class="about_section layout_padding">
-  <div class="container-fluid">
-    <div class="box">
-      <div class="img_container">
-        <div class="img-box b1">
-          <img src="{{ "images/a-1.jpg" | relURL }}" alt="">
-        </div>
-        <div class="img-box b2">
-          <img src="{{ "images/a-2.jpg" | relURL }}" alt="">
-        </div>
-      </div>
-      <div class="detail-box">
-        <h2>
-          About Our Studio
-        </h2>
-        <p>
-          There are many variations of passages of Lorem Ipsum
-          There are many variations of
-          passages of Lorem Ipsum
-        </p>
-        <a href="">
-          Read More
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end about section --> 
+## About Kevin Aryal
+
+Kevin Aryal is an Australia-based cinematographer known for his creative vision and passion for visual storytelling. With a background in film, music videos, and commercial projects, Kevin brings a unique perspective to every frame. His work is defined by a commitment to emotion, narrative, and cinematic excellence.
+
+> "Every project is a new story, and my camera is the pen."
+
+Kevin’s portfolio includes award-winning short films, visually stunning music videos, and impactful commercial campaigns. He is always seeking new collaborations and creative challenges.
+
+**Connect with Kevin:**
+- [Instagram](https://www.instagram.com/kevin_aryalz/)
+- Email: kevin.aryal@example.com
+- Australia 

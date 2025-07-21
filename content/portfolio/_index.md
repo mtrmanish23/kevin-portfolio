@@ -4,63 +4,20 @@ date: 2024-01-01
 draft: false
 ---
 
-<!-- portfolio section -->
-<section class="portfolio_section layout_padding-top">
-  <div class="container">
-    <div class="heading_container">
-      <h2>
-        Our Portfolio
-      </h2>
-      <p>
-        There are many variations of
-      </p>
-    </div>
-  </div>
-  <div class="portfolio_container slick-carousel">
-    <div class="box">
-      <img src="{{ "images/p-1.jpg" | relURL }}" alt="">
-      <div class="link-box">
-        <a href="">
-          <img src="{{ "images/link.png" | relURL }}" alt="">
-        </a>
-        <h6>
-          There are many
-        </h6>
-      </div>
-    </div>
-    <div class="box">
-      <img src="{{ "images/p-2.jpg" | relURL }}" alt="">
-      <div class="link-box">
-        <a href="">
-          <img src="{{ "images/link.png" | relURL }}" alt="">
-        </a>
-        <h6>
-          There are many
-        </h6>
-      </div>
-    </div>
-    <div class="box">
-      <img src="{{ "images/p-3.jpg" | relURL }}" alt="">
-      <div class="link-box">
-        <a href="">
-          <img src="{{ "images/link.png" | relURL }}" alt="">
-        </a>
-        <h6>
-          There are many
-        </h6>
-      </div>
-    </div>
-    <div class="box">
-      <img src="{{ "images/p-4.jpg" | relURL }}" alt="">
-      <div class="link-box">
-        <a href="">
-          <img src="{{ "images/link.png" | relURL }}" alt="">
-        </a>
-        <h6>
-          There are many
-        </h6>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end portfolio section --> 
+## Selected Works
+
+A curated selection of recent cinematography projects by Kevin Aryal. Each project reflects a unique story, creative vision, and technical expertise.
+
+### Short Film: The Journey
+A visually rich narrative exploring the emotional journey of self-discovery. Official selection at Kathmandu Short Film Festival 2023.
+
+### Music Video: Night Lights
+A vibrant, energetic music video blending urban landscapes with dynamic camera work.
+
+### Commercial: Urban Motion
+A high-impact commercial campaign for a leading urban fashion brand, shot on location in Kathmandu.
+
+### Documentary: Faces of Nepal
+A heartfelt documentary capturing the diverse stories and faces of Nepal’s people.
+
+> For more projects and behind-the-scenes, follow Kevin on [Instagram](https://www.instagram.com/kevin_aryalz/). 

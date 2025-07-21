@@ -1,13 +1,17 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Ace Photography Studio"
+title = "Kevin Aryal – Cinematographer"
 theme = "ace-theme"
 
 [params]
-  description = "Creative Photography Studio"
-  author = "Ace Studio"
-  keywords = "photography, creative, studio, portfolio"
+  description = "The official portfolio of Kevin Aryal, a passionate cinematographer based in Australia, specializing in visual storytelling, film, and creative direction."
+  author = "Kevin Aryal"
+  keywords = "cinematography, film, video, portfolio, Kevin Aryal, director, storytelling"
   recaptcha_site_key = "6LdVfYErAAAAAE3xdsDLolAqtBKm0XDS_-6oR2g5"
+  address = "Australia"
+  phone = "+977 9800000000"
+  email = "kevin.aryal@example.com"
+  instagram = "https://www.instagram.com/kevin_aryalz/"
 
 [menu]
   [[menu.main]]
